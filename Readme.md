@@ -6,7 +6,7 @@
 
 Validate open connections:
 
-`curl localhost:9200/_nodes/stats/http?pretty | grep total_opened`
+`curl localhost:8080/_nodes/stats/http?pretty | grep total_opened`
 
 Validate load balancing:
 
